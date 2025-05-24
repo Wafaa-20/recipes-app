@@ -14,4 +14,13 @@ to cook better food!""";
   //Signup
   static const welcome2 = "Welcome!";
   static const signUp = "Sign Up";
+
+  // home
+  static const search = "Search";
+  static const category = "Category";
+  static const all = "All";
+  static const food = "Food";
+  static const drink = "Drink";
+  static const right = "Right";
+  static const left = "Left";
 }

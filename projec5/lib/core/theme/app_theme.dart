@@ -17,6 +17,12 @@ class AppTheme {
       enabledBorder: getBorder(AppPalette.lightGray),
       hintStyle: TextStyles.inter50015,
     ),
+    searchBarTheme: SearchBarThemeData(
+      backgroundColor: WidgetStateProperty.all(AppPalette.lightWhite),
+      elevation: WidgetStateProperty.all(0),
+      hintStyle: WidgetStateProperty.all(TextStyles.inter50015),
+      padding: WidgetStateProperty.all(EdgeInsets.symmetric(horizontal: 20)),
+    ),
   );
   static OutlineInputBorder getBorder(Color? borderColor) {
     return OutlineInputBorder(

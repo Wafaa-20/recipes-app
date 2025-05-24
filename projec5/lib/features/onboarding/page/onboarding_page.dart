@@ -4,7 +4,7 @@ import 'package:projec5/core/extension/navigation.dart';
 import 'package:projec5/core/text/app_text.dart';
 import 'package:projec5/core/text/text_styles.dart';
 import 'package:projec5/core/widget/button/custom_button.dart';
-import 'package:projec5/features/auth/presentation/page/login_page.dart';
+import 'package:projec5/features/auth/presentation/page/signup_page.dart';
 
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({super.key});
@@ -37,9 +37,9 @@ class OnboardingPage extends StatelessWidget {
           SizedBox(height: 72),
           CustomButton(
             onPressed: () {
-              context.customPushReplacement(LoginPage());
+              context.customPushReplacement(SignupPage());
             },
-            child: Text(AppText.start, ),
+            child: Text(AppText.start),
           ),
         ],
       ),

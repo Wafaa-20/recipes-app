@@ -8,11 +8,22 @@ class TextStyles {
     fontSize: 22,
     color: AppPalette.lightBlack,
   );
+   static final inter70017 = GoogleFonts.inter(
+    fontWeight: FontWeight.w700,
+    fontSize: 17,
+    color: AppPalette.lightBlack,
+  );
   static final inter70015 = GoogleFonts.inter(
     fontWeight: FontWeight.w700,
     fontSize: 15,
     color: AppPalette.whiteColor,
   );
+    static final inter60015 = GoogleFonts.inter(
+    fontWeight: FontWeight.w600,
+    fontSize: 15,
+   
+  );
+
 
   static final inter50017 = GoogleFonts.inter(
     fontWeight: FontWeight.w500,
